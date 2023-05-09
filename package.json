@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"private": true,
+	"name": "importable.demonstration",
+	"type": "module",
+	"devDependencies": {
+		"@importable/document": "0.1.0",
+		"@importable/machine": "0.1.0",
+		"@importable/yaml": "0.1.0",
+		"importable": "0.1.0",
+		"typescript": "5.0.4"
+	},
+	"prettier": {
+		"singleQuote": true,
+		"useTabs": true,
+		"overrides": [
+			{
+				"files": "*.md",
+				"options": {
+					"tabWidth": 2,
+					"useTabs": false
+				}
+			}
+		]
+	}
+}

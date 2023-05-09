@@ -1,0 +1,8 @@
+{
+	"name": "Node.js",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+	"postCreateCommand": "npm install",
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib"
+	}
+}
